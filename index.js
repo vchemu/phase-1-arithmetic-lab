@@ -1,27 +1,17 @@
+let num1 = 31;
+let num2 = 2;
 
-function multiply(num1 * num2) {
-  return num1 * num2;
-}
+let multiply = num1 * num2;
+console.log(multiply);
 
-console.log(multiply(2,31));
 
-function random() {
-  let x = Math.random();
-}
-console.log(x);
+let random = Math.floor(Math.random() * 10);
 
-function mod(num3 % num4) {
-  return num3 % num4;
-}
 
-console.log(mod(16,6));
+let num3 = 18;
+let num4 = 7;
 
-function max(num5, num6){
+let mod = num3 % num4;
+console.log(mod);
 
-  if (num5 > num6) {
-    return num5;
-  }
-  return num6;
-}
-
-console.log(max(15, 20));
+let max = Math.max(5, 9, 20, 17);
